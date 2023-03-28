@@ -213,17 +213,17 @@
                             !org.dom4j.*; version=${dom4j.version},
                             org.xml.sax.*,
                             org.w3c.dom.*,
-                            javax.xml.stream;
-                            javax.xml.stream.events;
-                            javax.xml.stream.util;
+                            javax.xml.stream;version="0.0.0",
+                            javax.xml.stream.events;version="0.0.0",
+                            javax.xml.stream.util;version="0.0.0",
 			                javax.xml.bind.*;resolution:=optional,
-                            javax.xml.datatype,
-                            javax.xml.parsers,
-                            javax.xml.transform.*,
-                            javax.xml.validation,
-                            javax.xml.xpath,
-                            javax.xml,
-                            javax.activation,
+                            javax.xml.datatype;version="0.0.0",
+                            javax.xml.parsers;version="0.0.0",
+                            javax.xml.transform.*;version="0.0.0",
+                            javax.xml.validation;version="0.0.0",
+                            javax.xml.xpath;version="0.0.0",
+                            javax.xml;version="0.0.0",
+                            javax.activation;version="0.0.0",
                             *;resolution:=optional
                         </Import-Package>
                         <Private-Package>
@@ -325,7 +325,7 @@
         <jaxen.version>1.2.0</jaxen.version>
         <javax.mail.version>1.6.2</javax.mail.version>
         <dom4j.version>1.6.1</dom4j.version>
-        <maven.bundle.plugin.version>1.4.0</maven.bundle.plugin.version>
+        <maven.bundle.plugin.version>5.1.8</maven.bundle.plugin.version>
     </properties>
 
 </project>
